@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb5bb890104944498ecef567faff57, type: 3}
+  m_Name: CanyonRocks1_TerrainAlignedObjectGenerator
+  m_EditorClassIdentifier: 
+  rayPositions:
+  - {x: 87.958786, y: 100, z: 94.21755}
+  - {x: 81.546074, y: 100, z: 88.808586}
+  hitPositions:
+  - {x: 87.958786, y: 7.2693286, z: 94.21755}
+  placingAttempts: 3
+  positionGen: {fileID: 11400000, guid: 5d9c5c9380035ec42b6e91482f4dcacd, type: 2}
+  positionValid: {fileID: 11400000, guid: 94fce8be6374aa049ac706b386d30349, type: 2}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  prefab: {fileID: 1813357942169304022, guid: 3dd97330b2ebd884e9f796894e026064, type: 3}
+  minScale: 0.5
+  maxScale: 0.8

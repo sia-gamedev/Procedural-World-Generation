@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234b79b35eeae39478bf6437f18e21f7, type: 3}
+  m_Name: Canyon_RidgedPerlinNoiseGenerator
+  m_EditorClassIdentifier: 
+  seed: 2
+  minRandomOffset: -1000
+  maxRandomOffset: 1000
+  scale: 70.1
+  octaves: 6
+  lacunarity: 2.54
+  persistance: 0.325
+  height: 59

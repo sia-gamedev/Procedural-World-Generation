@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c51468355f1b041be52d4d844d6fbe, type: 3}
+  m_Name: Taiga_FalloffNoiseGenerator
+  m_EditorClassIdentifier: 
+  heightNoiseGenerator: {fileID: 11400000, guid: f757172d53b8df647a03739c0ff94ec3, type: 2}
+  falloffNoiseGenerator: {fileID: 11400000, guid: 5eebb4c95d0f54f478fc9b9def325eeb, type: 2}
+  falloffFactor: 1
+  falloffCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0083351135
+      value: -0.0070762634
+      inSlope: 0.17187527
+      outSlope: 0.17187527
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.76161635
+    - serializedVersion: 3
+      time: 0.44312298
+      value: 0.2854358
+      inSlope: 2.5692582
+      outSlope: 2.5692582
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.084246926
+      outWeight: 0.35491136
+    - serializedVersion: 3
+      time: 0.64419234
+      value: 0.8198715
+      inSlope: 1.3627483
+      outSlope: 1.3627483
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.73106194
+      outWeight: 0.16141514
+    - serializedVersion: 3
+      time: 1.4307115
+      value: 0.5960041
+      inSlope: -1.1394036
+      outSlope: -1.1394036
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3644574
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  height: 10

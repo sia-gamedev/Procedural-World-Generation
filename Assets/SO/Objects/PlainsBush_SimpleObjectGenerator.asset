@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716f80b9cea87924d9a09662cf2efeb0, type: 3}
+  m_Name: PlainsBush_SimpleObjectGenerator
+  m_EditorClassIdentifier: 
+  rayPositions:
+  - {x: 90.89962, y: 100, z: 84.58486}
+  - {x: 87.78577, y: 100, z: 95.31842}
+  - {x: 82.166046, y: 100, z: 97.87031}
+  - {x: 82.3878, y: 100, z: 95.52879}
+  - {x: 86.24313, y: 100, z: 94.30314}
+  - {x: 84.50722, y: 100, z: 90.79203}
+  hitPositions:
+  - {x: 90.89962, y: -2.7752535, z: 84.58486}
+  - {x: 87.78577, y: -1.3473756, z: 95.31842}
+  - {x: 82.166046, y: 0.7283094, z: 97.87031}
+  - {x: 82.3878, y: -0.0743425, z: 95.52879}
+  - {x: 86.24313, y: -1.2816191, z: 94.30314}
+  - {x: 84.50722, y: -1.7437731, z: 90.79203}
+  placingAttempts: 10
+  positionGen: {fileID: 11400000, guid: 03e70f6620582964792a82ca3313a0d3, type: 2}
+  positionValid: {fileID: 11400000, guid: 616ed50722a77e447ae9e045b9b3b685, type: 2}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  prefab: {fileID: 5153741093904279990, guid: 82e9a0294d1b32b40b83d1b4d593002c, type: 3}
+  minScale: 0.5
+  maxScale: 1.5

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb5bb890104944498ecef567faff57, type: 3}
+  m_Name: CanyonDeadBush_TerrainAlignedObjectGenerator
+  m_EditorClassIdentifier: 
+  rayPositions:
+  - {x: 83.44085, y: 100, z: 98.58583}
+  - {x: 81.38299, y: 100, z: 94.42502}
+  - {x: 80.92733, y: 100, z: 91.73936}
+  hitPositions: []
+  placingAttempts: 5
+  positionGen: {fileID: 11400000, guid: 03e70f6620582964792a82ca3313a0d3, type: 2}
+  positionValid: {fileID: 11400000, guid: 2dd21a009326aed44bb6f7e6ee2be325, type: 2}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  prefab: {fileID: 3708295212793361695, guid: 8cf2966042f7c2f44ac97cda7cc59eff, type: 3}
+  minScale: 0.5
+  maxScale: 1.4

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb5bb890104944498ecef567faff57, type: 3}
+  m_Name: PlainsRock_TerrainAlignedObjectGenerator
+  m_EditorClassIdentifier: 
+  rayPositions:
+  - {x: 80.11542, y: 100, z: 99.55425}
+  - {x: 91.68585, y: 100, z: 87.02125}
+  hitPositions:
+  - {x: 80.11542, y: 16.396507, z: 99.55425}
+  - {x: 91.68585, y: 7.0130215, z: 87.02125}
+  placingAttempts: 2
+  positionGen: {fileID: 11400000, guid: dc466d6bb8029464e814bbdc69489a69, type: 2}
+  positionValid: {fileID: 11400000, guid: 616ed50722a77e447ae9e045b9b3b685, type: 2}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  prefab: {fileID: 170636262904696776, guid: 4202bcf0261b7184381139880446dfd6, type: 3}
+  minScale: 0.5
+  maxScale: 3

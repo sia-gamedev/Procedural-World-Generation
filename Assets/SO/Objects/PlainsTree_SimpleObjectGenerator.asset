@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716f80b9cea87924d9a09662cf2efeb0, type: 3}
+  m_Name: PlainsTree_SimpleObjectGenerator
+  m_EditorClassIdentifier: 
+  rayPositions:
+  - {x: 83.651924, y: 100, z: 89.4852}
+  hitPositions:
+  - {x: 83.651924, y: -1.8711897, z: 89.4852}
+  placingAttempts: 2
+  positionGen: {fileID: 11400000, guid: 03e70f6620582964792a82ca3313a0d3, type: 2}
+  positionValid: {fileID: 11400000, guid: 616ed50722a77e447ae9e045b9b3b685, type: 2}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  prefab: {fileID: 5361428799875542787, guid: 34b2cd9b0e579ff448b9abdf4d6389e7, type: 3}
+  minScale: 0.5
+  maxScale: 1.5
