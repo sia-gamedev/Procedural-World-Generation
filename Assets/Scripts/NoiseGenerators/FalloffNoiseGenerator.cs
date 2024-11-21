@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using UnityEngine;
 
@@ -8,12 +9,8 @@ public class FalloffNoiseGenerator : NoiseGenerator
     private NoiseGenerator heightNoiseGenerator;
     [SerializeField]
     private NoiseGenerator falloffNoiseGenerator;
-    [SerializeField, Range(0f, 1f)]
-    private float falloffFactor;
     [SerializeField]
     private AnimationCurve falloffCurve;
-    [SerializeField]
-    private float height;
 
     public override float[] GetHeightNoiseValues(Vector3[] points)
     {
@@ -25,8 +22,11 @@ public class FalloffNoiseGenerator : NoiseGenerator
         float[] resultNoiseValues = new float[falloffNoiseValues.Length];
         for (int i = 0; i < resultNoiseValues.Length; i++)
         {
-            resultNoiseValues[i] = falloffCurve.Evaluate(Mathf.Clamp01(falloffNoiseValues[i])) * heightNoiseValues[i];
+            Debug.Log(falloffNoiseValues[i]);
+            resultNoiseValues[i] = falloffCurve.Evaluate(Mathf.Clamp01(falloffNoiseValues[i])) * Mathf.Abs(heightNoiseValues[i]);
         }
+
+        Debug.Log($"Height: {heightNoiseValues.Min()}");
 
         return resultNoiseValues;
     }
